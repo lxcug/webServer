@@ -231,19 +231,3 @@ void HttpConnection::process() {
     // 注册并监听写事件
     m_utils->modfd(m_epfd, m_sockfd, EPOLLOUT, 1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
